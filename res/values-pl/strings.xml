@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 FlamingoOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Flamingo settings -->
+    <string name="flamingo_settings_title">Ustawienia Flamingo</string>
+    <string name="flamingo_settings_summary">Ekran blokady, Panel szybkich ustawień, Statusbar, Motyw</string>
+
+    <!-- Lockscreen settings -->
+    <string name="lockscreen_settings_title">Ekran blokady</string>
+    <string name="lockscreen_settings_summary">DT2S, Zabezpiecznie szybkich ustawień, Podświetlenie krawędzi</string>
+
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_charging_info_title">Pokaż informacje o ładowaniu na ekranie blokady</string>
+    <string name="lockscreen_charging_info_summary">Pokazuje temperature, napięcie i inne statystyki podczas ładowania</string>
+
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="double_tap_sleep_lockscreen_title">Podwójne stuknięcie aby uśpić</string>
+    <string name="double_tap_sleep_lockscreen_summary">Stuknij dwukrotnie na ekranie blokady, aby uśpić</string>
+
+    <!-- Hide QS -->
+    <string name="hide_qs_title">Ukryj szybkie ustawienia na zablokowanym ekranie</string>
+    <string name="hide_qs_summary">Ukrycie panelu ustawień, kiedy urządzenie jest zablokowane. Powiadomienia są dalej wyświetlane, lecz panel szybkich ustawień nie będzie widoczny</string>
+
+    <!-- Edge light -->
+    <string name="edge_light_title">Podświetlenie krawędzi</string>
+    <string name="enable_edge_light">Włącz podświetlenie krawędzi</string>
+    <string name="edge_light_intro_text">Pokazuje podświetlone krawędzie ekranu w momencie powiadomienia</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Zawsze pokazuj podświetlenie</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Pokazuj podświetalanie krawędzi w momencie, gdy ekran dostosowany do otoczenia jest aktywny, a nie tylko w momencie powiadomienia</string>
+    <string name="edge_light_repeat_animation_title">Powtarzaj animację</string>
+    <string name="edge_light_repeat_animation_summary_on">Powtarzaj do czasu powiadomienia</string>
+    <string name="edge_light_repeat_animation_summary_off">Pokaż tylko raz</string>
+    <string name="edge_light_color_mode_title">Kolor podświetlenia krawędzi</string>
+    <string name="accent_color">Akcenty koloru (domyślne）</string>
+    <string name="notification_color">Kolor powiadomień</string>
+    <string name="wallpaper_color">Kolor tapety</string>
+    <string name="custom_color">Niestandardowy kolor</string>
+    <string name="edge_light_custom_color_title">Niestandardowy kolor</string>
+
+    <!-- Miscellaneous settings -->
+    <string name="miscellaneous_settings_title">Inne ustawienia</string>
+    <string name="miscellaneous_settings_summary">Dźwięk zrzutu ekranu, Sterowanie muzyką za pomocą przycisków głośności</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
+    <string name="screenshot_shutter_sound_summary">Włącz dźwięk zrzutu ekranu oraz wibracje</string>
+
+    <!-- Volume key music control -->
+    <string name="volume_button_music_control_title">Przewijaj utwory za pomocą dźwięków głośności</string>
+    <string name="volume_button_music_control_summary">Przytrzymaj dłużej przycisk głośności, aby przewinąć utwór lub powrócić do poprzedniego</string>
+
+    <!-- QS panel settings -->
+    <string name="qs_panel_settings_title">Ustawienia panelu szbykich ustawień</string>
+    <string name="qs_panel_settings_summary">Suwak jasności, Szacowany czas baterii na pasku szybkich ustawień, Dolny tekst na panelu szybkich ustawień </string>
+    
+    <!-- Brightness slider -->
+    <string name="brightness_slider">Suwak jasności</string>
+    <string name="qqs_show_brightness_title">Pokaż suwak jasności w panelu szybkich ustawień</string>
+    <string name="brightness_slider_position_title">Położenie suwaka jasności</string>
+    <string name="top">Góra</string>
+    <string name="bottom">Dół</string>
+    <string name="show_auto_brightness_button_title">Pokaż przycisk automatycznej jasności</string>
+
+    <!-- QS Battery estimates -->
+    <string name="qs_show_battery_estimate_title">Szacowany czas baterii</string>
+    <string name="qs_show_battery_estimate_summary_on">Pokaż szacowany czas baterii w panelu szybkich ustawień</string>
+    <string name="qs_show_battery_estimate_summary_off">Ukryj szacowany czas baterii w panelu szybkich ustawień</string>
+
+    <!-- QS footer text -->
+    <string name="qs_footer_text_show_title">Pokaż dolny tekst na panelu szybkich ustawień</string>
+    <string name="qs_footer_text_string_title">Ustaw dolny tekst</string>
+    <string name="qs_footer_text_string_summary">Ustawienie dla pustego pola \"Flamingo OS\"</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="secure_keyguard_tiles_title">Wymaga odblkowania do użycia wrażliwych kafelków</string>
+
+    <!-- Statusbar settings -->
+    <string name="statusbar_settings_title">Ustawienia statusbar</string>
+    <string name="statusbar_settings_summary">Prędkość sieci, Wygląd ikony baterii, Połączenie ikon sygnału, Licznik powiadomień</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_category_title">Prędkość sieci</string>
+    <string name="network_traffic_intro_text">
+        Pokazuje aktualną prędkośc sieci na statusbarze.
+        Ukazana prędkość jest aktualizowana, tak aby zmieniała się
+        pomiędzy prędkością wysyłania i pobierania co sekundę
+    </string>
+    <string name="enable_network_traffic">Włącz monitorowanie prędkości sieci</string>
+    <string name="statusbar_network_traffic_threshold_tx_title">Automatycznie ukrywaj próg wysyłania</string>
+    <string name="statusbar_network_traffic_threshold_rx_title">Automatycznie ukrywaj próg pobierania</string>
+    <string name="statusbar_network_traffic_unit_text_size_title">Wielkość tekstu prędkości sieci</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_title">Współczynnik skali tekstu prędkości sieci</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_dialog_title">Współczynnik skali</string>
+
+    <!-- Battery -->
+    <string name="statusbar_battery_category_title">Bateria</string>
+    <string name="statusbar_battery_style_title">Wygląd ikony baterii</string>
+    <string name="battery_style_portrait">Portret</string>
+    <string name="battery_style_circle">Okrąg</string>
+    <string name="battery_style_text">Text</string>
+    <string name="statusbar_battery_show_percent_inside_title">Pokaż procentowy poziom naładowania baterii w ikonie</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Połączone ikony sygnału</string>
+    <string name="combined_status_bar_signal_icons_summary">Włącz połączenie ikon sygnału sieci na statusbarze. Wymaga restartu StemuUI albo systemu, aby zastosować zmiany</string>
+
+     <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Licznik powiadomień</string>
+    <string name="status_bar_notif_count_summary">Pokaż ilość przychodzących powiadomień na prawym dolnym rogu ikony powiadomień statusbaru</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ikona 4G</string>
+    <string name="show_fourg_icon_summary">Pokaż ikonę 4G zamiast ikony LTE</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Mała ikona zasięgu</string>
+    <string name="use_old_mobiletype_summary">Pokazuje małą ikonę zasięgu na górze jakości sygnału</string>
+
+    <!-- Statusbar Privacy -->
+    <string name="privacy">Prywatność</string>
+    <string name="camera_mic_icons_title">Włącz wskażnik prywatności aparatu i mikrofonu</string>
+    <string name="location_indicators_title">Włącz wskaźnik prywatności lokalizacji</string>
+
+    <!-- Theme settings -->
+    <string name="theme_settings_title">Ustawienia motywu/string>
+    <string name="theme_settings_summary">Ikony, Czcionka</string>
+
+    <!-- Icon pack -->
+    <string name="icon_pack_preference_title">Ikony</string>
+
+    <!-- Font -->
+    <string name="font_preference_title">Nagłówek / Czcionka</string>
+
+    <!-- Custom font -->
+    <string name="custom_font_preference_title">Niestandardowy Nagłówek / Czcionka</string>
+    <string name="custom_font_preference_footer_message">Uruchom ponownie po wybraniu czcionki, aby zastosować</string>
+    <string name="cannot_resolve_activity">Nie mozna znaleźć odpowiedniej aktywności do wykonania tej czynności!</string>
+    <string name="invalid_font_file">Plik czcionki nie ma prawidłowej postscript table</string>
+    <string name="failed_to_update_font">Nie udało się zaktualizować czcionki</string>
+    <string name="failed_to_copy_file_to_cache">Nie udało się skopiować czcionki do schowka</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Zoptymalizuj ekran w oparciu o porę dnia i warunki otoczenia, aby poprawić czytelność i zmniejszyć zmęczenie oczu</string>
+    <string name="live_display_mode">Tryb wyświetlania</string>
+    <string name="live_display_color_temperature_title">Temperatura kolorów</string>
+    <string name="live_display_color_temperature_summary">Dzień: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Dzień</string>
+    <string name="live_display_night">Noc</string>
+    <string name="live_display_outdoor_mode_title">Automatyczny tryb na zewnątrz</string>
+    <string name="live_display_outdoor_mode_summary">Automatycznie zwiększaj jasność i nasycenie w jasnym świetle słonecznym</string>
+    <string name="live_display_anti_flicker_title">Anty migotanie</string>
+    <string name="live_display_anti_flicker_summary">Zapobiega intensywnemu migotaniu i zmniejszaj zmęczenie oczu w warunkach słabego oświetlenia. Może to pogorszyć dokładność kolorów i wpłynąć na sposób wyświetlania niektórych elementów</string>
+    <string name="live_display_low_power_title">Zmniejszenie zużycia energii</string>
+    <string name="live_display_low_power_summary">Dostosowuje wyświetlacz, aby uzyskać najniższe zużycie energii bez degradacji</string>
+    <string name="live_display_enhance_color_title">Wzmocnione kolory</string>
+    <string name="live_display_enhance_color_summary">Poprawia jaskrawość kolorów odcieni skóry, scenerii i innych obrazów</string>
+    <string name="live_display_color_profile_title">Profil kolorów</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Dokładne kolory i jasna bieL</string>
+    <string name="live_display_color_profile_natural_title">Naturalne</string>
+    <string name="live_display_color_profile_natural_summary">Realistyczne kolory i odcienie skóry</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamiczne</string>
+    <string name="live_display_color_profile_dynamic_summary">Wzmocnione kolory i jasność bieli</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Idealne odwzorowanie kolorów dla wideo</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Głęboka czerwień dla zachowania widzenia w nocy</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Doskonałe odwzorowanie kolorów na zdjęciach</string>
+    <string name="live_display_color_profile_basic_title">Podstawowy</string>
+    <string name="live_display_color_profile_basic_summary">Użyj do nieskalibrowanego wyświetlacza</string>
+    <string name="live_display_color_profile_adaptive_title">Dostosowanie</string>
+    <string name="live_display_color_profile_adaptive_summary">Kolory dostosowują się do warunków otoczenia</string>
+    <string name="live_display_color_profile_reading_title">Czytanie</string>
+    <string name="live_display_color_profile_reading_summary">Cieplejsze kolory dla mniejszego zmęczenia oczu</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Kolory zgodne z sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Kolory zgodne z DCI-P3</string>
+    <string name="live_display_reading_mode_title">Tryb czytania</string>
+    <string name="live_display_reading_mode_summary">Szary kolor dla długotrwałego czytania</string>
+    <string name="color_calibration_title">Kalibracja koloru</string>
+    <string name="color_calibration_summary">Kalibruj kolory na ekranie</string>
+    <string name="color_red_title">Czerwony</string>
+    <string name="color_green_title">Zielony</string>
+    <string name="color_blue_title">Niebieski</string>
+
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Dostosowanie obrazu</string>
+    <string name="picture_adjustment_summary">Dostosowanie odcieni, saturacji, intensywności oraz kontrastu</string>
+    <string name="adj_hue_title">Odcień</string>
+    <string name="adj_saturation_title">Saturacja</string>
+    <string name="adj_intensity_title">Intensywność</string>
+    <string name="adj_contrast_title">Kontrast</string>
+
+    <!-- App lock -->
+    <string name="app_lock_title">Blokowanie aplikacji</string>
+    <string name="app_lock_authentication_dialog_title">Odblokuj</string>
+    <string name="enable_debugging">Włącz debuggowanie</string>
+    <string name="disable_debugging">Wyłącz debuggowanie</string>
+    <string name="app_lock_packages_title">Zabezpieczone aplikacje</string>
+    <string name="app_lock_packages_summary">Wybierz aplikację do zabezpieczenia poprzez biometrie albo dane uwierzytelniające urządzenia</string>
+    <string name="app_lock_timeout_title">Limit czasu automatycznej blokady</string>
+    <string name="app_lock_timeout_summary">Czas trwania, po której aplikacja w tle powinna zostać zablokowana</string>
+    <string name="app_lock_notifications_title">Redagowanie powiadomień</string>
+    <string name="app_lock_notifications_summary">
+        Treść powiadomień zostanie ukryta i zwinięta, gdy aplikacja zostanie zablokowana.
+        Istniejące powiadomienia, jak również nowe zgłoszenia zostaną zredagowane.
+        Powiadomienia Heads-up zostaną automatycznie wyłączone.。
+     </string>
+    <string name="app_lock_notifications_disabled_summary">Najpierw chroń aplikację</string>
+    <string name="app_lock_biometrics_allowed_title">Włącza biometrykę do odblokowania/string>
+    <string name="app_lock_footer_text">Dymki będę automatycznie znikały po przekroczeniu limitu czasu</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture_title">Przesuń, aby wykonać zrzut ekranu</string>
+    <string name="three_finger_gesture_summary">Za pomocą trzech palców przesuń w dół, aby wykońać zrzut ekranu</string>
+    <string name="enable_protection">Włącz zabiezpieczenie</string>
+    <string name="hide_from_launcher_title">Ukryj z launchera</string>
+    <string name="hide_from_launcher_summary">
+        Zapobiega aplikacji przed pojawieniem się w launcherze. Wymaga restart launchera, aby zastosować zmiany
+    </string>
+
+    <!-- Nav bar inversion -->
+    <string name="nav_bar_inverse_title">Zamień lewy i prawy przycisk</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Menadżer ikon</string>
+    <string name="icon_manager_summary">Zarządzaj widocznością ikon na statusbarze</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="statusbar_gesture_title">Gesty</string>
+    <string name="double_tap_sleep_gesture_title">Podwójne stuknięcie, aby uśpić</string>
+    <string name="double_tap_sleep_gesture_summary">Dwukrotnie stuknij gdziekolwiek na statusbarze, aby uśpić urządzenie</string>
+
+    <string name="statusbar_icon_title">Ikony</string>
+
+    <!-- GmsCompat -->
+    <string name="sandboxed_google_play">Sandboxed Google Play</string>
+    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (profil pracy)</string>
+
+    <string name="privileged_euicc_management_title">Włącz uprzywilejowane zarządzanie eSIM</string>
+    <string name="privileged_euicc_management_summary">Wymaga instalacji Sandboxed Google Play</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Dotknij, aby pokazać</string>
+
+    <!-- Developer info -->
+    <string name="device_maintainer">Konserwator urządzeń</string>
+
+    <!-- Flamingo version -->
+    <string name="flamingo_version">Wersja Flamingo</string>
+    <string name="no_application_found_to_open_link">Nie znaleziono aplikacji, aby otworzyć link</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Wibruj, aby wskazać stan połączenia</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Zawsze włączony przy ładowaniu</string>
+    <string name="doze_on_charge_summary">Pokazuj cały czas ekran drzemki podczas ładowania</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Mniej niż 1 minuta</string>
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s dziś</string>
+
+    <!-- Annoying Notifs -->
+    <string name="notification_sound_vib_screen_on_title">Alert powiadomień</string>
+    <string name="notification_sound_vib_screen_on_summary">Odtwarzaj dźwięk i wibracje, gdy ekran jest włączony</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz dzwonek &amp; głosnośc powiadomień</string>
+
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">Głoność dzownka</string>
+
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Inne ustawienia</string>
+    <string name="fullscreen_gestures_title">Gesty pełnoerkanowe</string>
+    <string name="fullscreen_gestures_summary">Ukryj pasek nawigacji i przestrzeń pod klawiaturą</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Długość paska nawigacji</string>
+    <string name="short_label">Długa</string>
+    <string name="long_label">Krótka</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Zawsze na ekranie</string>
+    <string name="always_on_display_schedule_sunset">Zachód słońca</string>
+    <string name="always_on_display_schedule_sunrise">Wschód słońca</string>
+    <string name="always_on_display_schedule_mixed_sunset">Włącza się od zachodu słońca do czasu</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Włącza się od czasu do wschodu słońca</string>
+
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">一Regulacja automatyczna jasność</string>
+    <string name="auto_brightness_one_shot_summary">Regulacja jasności nastąpi tylko w momencie włączenia ekranu</string>
+
+    <!-- Min / max refresh rate -->
+    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania/string>
+    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Wzór wibracji</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Niestandardowe</string>
+    <string name="custom_vibration_pattern_title">Niestandardowy wzór</string>
+    <string name="custom_vibration_pattern_summary">Ustaw niestandardowe wibracje</string>
+
+    <!-- Wifi Password Copy -->
+    <string name="copied_to_clipboard">Skopiowano do schowka</string>
+    <string name="longpress_to_clipboard">Przytrzymaj dłużej, aby skopiować</string>
+
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Ukryj sieć</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Twoja nazwa hotspotu nie pojawi się w liście dostępnych sieci WLAN</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Wyłącz, gdy nie ma podłączonych urządzeń do <xliff:g id="DURATION">%1$d</xliff:g>minuty</item>
+        <item quantity="one">Wyłącz, gdy nie ma podłączonych urządzeń do <xliff:g id="DURATION">%1$d</xliff:g>minut</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nigdy nie wyłączaj hotspota</string>
+    <string name="wifi_hotspot_client_manager_title">Połączone urządzenia</string>
+    <string name="wifi_hotspot_client_manager_summary">Lista urządzeń podłączonych do hotspotu i zarządzanie nimi oraz ustawianie limitu liczby klientów</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Lista połączonych urządzeń do hotspota</string>
+    <string name="wifi_hotspot_client_limit_title">Limit połączonych urządzeń</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Do <xliff:g id="device_num">%1$d</xliff:g> urządzenie może połączyć się z tym hotspotem</item>
+        <item quantity="one">Do <xliff:g id="device_num">%1$d</xliff:g> urządzenie może połączyć się z tym hotspotem</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">Zablokowane urządzenia</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Połączone urządzenia</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Zablokuj urządzenie</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ta czynność odłączy \"<xliff:g id="device_name">%1$s</xliff:g>\" od tego urządzenie i dodago go do blocklisty</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokuj urządzenie</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">To urządzenie \"<xliff:g id="device_name">%1$s</xliff:g>\" będzie dostępne do połączenia, do tego hotspotu</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Aktualnie nie ma dostępnych urządzeń. Podłączone i zablokowane urządzenia zostaną wymienione tutaj, gdy będą dostępne。</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Przechodzenie przez tryby</string>
+    <string name="prevent_ringing_option_cycle_summary">Wł. (przechodzenie przez tryby)</string>
+    <string name="prevent_ringing_option_normal">Normalny</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">Głosność aplkacji</string>
+
+    <!-- Torch gesture -->
+    <string name="gesture_double_tap_power_summary_disabled">Wyłączone gestem latarki</string>
+    <string name="double_tap_power_for_torch_title">Włącz latarkę</string>
+    <string name="double_tap_power_for_torch_summary_enabled">Szybko dwukrotnie wciśnij przycisk zasilania, aby włączyć latarkę</string>
+    <string name="double_tap_power_for_torch_summary_disabled">Wyłączone poprzez gest otwaracia aparatu</string>
+    <string name="power_menu_long_press_for_torch">Przytrzymaj, aby włączyć latarkę</string>
+    <string name="torch_long_press_power_text">Długie naciśnięcie w celu włączenia latarki działa tylko przy wyłączonym ekranie.\nPonowne długie naciśnięcie, gdy latarka jest włączona, wyłącza ją, nawet jeśli ekran jest włączony</string>
+    <string name="power_menu_summary_long_press_for_torch">Przełącz latarkę</string>
+
+    <!-- Volume panel position -->
+    <string name="volume_panel_position_title">Panel głośności po lewej</string>
+
+    <!-- Other sensors permission preference -->
+    <string name="auto_grant_OTHER_SENSORS_permission_title">Domyślnie zewzwalaj aplikacjom na dostęp do czujników</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Czujniki to niestandardowe zezwolenie, aplikacje mogą działać nieprawidłowo, jeśli zostaną odrzucone</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_off">Gdy aplikacja próbuje uzyskać dostęp do czujników, zostanie wyświetlony komunikat o pozwolenie. Należy pamiętać, że niektóre aplikacje mogą wymagać ręcznego ponownego uruchomienia po zezwoleniu na uprawnienia do czujników</string>
+
+    <!-- LC3 codec -->
+    <string name="bluetooth_lc3_codec">LC3</string>
+
+    <!-- Storage scopes -->
+    <string name="storage_scopes">Zakres pamięci</string>
+    <string name="allow_access_to_obb_directory_title">Zezwalaj na dostęp do folderu Android/obb</string>
+    <string name="allow_access_to_obb_directory_summary">Wymagany do zainstalowania dużych aplikacji (głównie gier), które używają rozszrzenia OBB</string>
+
+    <!-- Screen off UDFPS -->
+    <string name="screen_off_udfps_title">Ekran wyłączony UDFPS</string>
+    <string name="screen_off_udfps_summary">Zostawia UDFPS włączone, kiedy ekran jest wyłączony</string>
+
+    <string name="cutout_force_fullscreen_title">Wymuś pełny ekran w aplikacjach</string>
+    <string name="cutout_force_fullscreen_summary">Nadpisuje wycięcie erkanu oraz wymusza pełen ekran na podstawie aplikacji</string>
+    <string name="select_apps">Select apps</string>
+
+</resources>
